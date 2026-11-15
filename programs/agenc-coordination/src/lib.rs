@@ -39,7 +39,7 @@ compile_error!(
 
 use anchor_lang::prelude::*;
 
-declare_id!("HJsZ53Zb27b8QMRbQpuDngE44AdwCGxvEZr61Zmxw1xK");
+declare_id!("2wAW3AckaeU12VVmoGKYLMFgSEmR7AFcpvoCyQaCtM8i");
 
 #[cfg(any(feature = "mainnet-canary", feature = "spl-token-rewards"))]
 pub mod errors;

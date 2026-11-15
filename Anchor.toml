@@ -1,19 +1,19 @@
 [toolchain]
 anchor_version = "0.32.1"
-solana_version = "4.1.0"
+# solana_version = "4.1.0"  # lab: do not trigger solana-install
 
 [features]
 seeds = true
 skip-lint = false
 
 [programs.localnet]
-agenc_coordination = "HJsZ53Zb27b8QMRbQpuDngE44AdwCGxvEZr61Zmxw1xK"
+agenc_coordination = "2wAW3AckaeU12VVmoGKYLMFgSEmR7AFcpvoCyQaCtM8i"
 
 [programs.devnet]
-agenc_coordination = "HJsZ53Zb27b8QMRbQpuDngE44AdwCGxvEZr61Zmxw1xK"
+agenc_coordination = "2wAW3AckaeU12VVmoGKYLMFgSEmR7AFcpvoCyQaCtM8i"
 
 [programs.mainnet]
-agenc_coordination = "HJsZ53Zb27b8QMRbQpuDngE44AdwCGxvEZr61Zmxw1xK"
+agenc_coordination = "2wAW3AckaeU12VVmoGKYLMFgSEmR7AFcpvoCyQaCtM8i"
 
 [registry]
 url = "https://api.apr.dev"
